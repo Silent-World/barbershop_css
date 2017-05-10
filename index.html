@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="wrapper">
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Главная</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Информация</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Новости</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Прайс-лист</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Магазин</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <a href="#" class="user-block__login">Вход</a>
+      </div>
+    </div>
+  </header>
+  <main class="wrapper">
+    <div class="logo">
+      <img src="img/BORODINSKI-Logo.png" alt="Barbershop BORODINSKI">
+    </div>
+    <section class="feature">
+      <div class="feature__item">
+        <b class="feature__name">Быстро</b>
+        <p class="feature__description">
+          МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+        </p>
+      </div>
+      <div class="feature__item">
+        <b class="feature__name">Круто</b>
+        <p class="feature__description">
+          ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+        </p>
+      </div>
+      <div class="feature__item">
+        <b class="feature__name">Дорого</b>
+        <p class="feature__description">
+          НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+        </p>
+      </div>
+    </section>
+    <div class="content-top content">
+      <section class="content-top__news news">
+        <h2 class="news__title">Новости</h2>
+        <p class="news__description">
+          НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+        </p>
+        <time datetime="2017-09-25" class="news__date">25 сентября</time>
+        <p class="news__description">
+          В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+        </p>
+        <time datetime="2017-09-19" class="news__date">19 сентября</time>
+        <a href="#" class="news__link btn">Все новости</a>
+      </section>
+      <section class="content-top__gallery gallery">
+        <h2 class="gallery__title">Фотогалерея</h2>
+        <figure class="gallery__image">
+          <img src="img/gallery_img.png" alt="" class="gallery__image--first">
+        </figure>
+        <button class="gallery__pre btn">Назад</button>
+        <button class="gallery__next btn">Вперед</button>
+      </section>
+    </div>
+    <div class="content-bottom content">
+      <section class="content-bottom__contacts contacts">
+        <h2 class="contacts__title">Контактная информация</h2>
+        <div class="contacts__wrapper">
+          <p class="contacts__name">Барбершоп "Бородинский"</p>
+          <address class="contacts__address">Адрес: г.Санкт-Петербург, б.Конюшенная, д.19/8</address>
+          <p class="contacts__phone">Телефон: <a href="tel:+74956660266">+7 (495) 666-02-66</a></p>
+        </div>
+        <div class="heure__wrapper">
+          <p class="contacts__hours">
+            Время работы:<br>
+            пн-пт:c 10:00 до 22:00<br>
+            сб-вс:с 10:00 до 19:00
+          </p>
+        </div> 
+      </section>
+      <section class="content-bottom__write write">
+        <h2 class="write__title">Записаться</h2>
+        <p class="write__text">
+          УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+          <form action="#" class="write__form">
+            <input type="date" name="date" class="write__input" placeholder="Дата">
+            <input type="time" name="time" class="write__input" placeholder="Время">
+            <input type="text" name="name" class="write__input" placeholder="Ваше имя">
+            <input type="tel" name="tel" class="write__input" placeholder="Ваше телефон">
+            <button class="write__submit btn">Отправить</button>
+          </form>
+        </p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrapper">
+      <section class="footer__address">
+        Барбершоп "Бородинский"<br>
+        адрес: г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8<br>
+        <a href="#" class="footer__link--cart">Как нас найти?</a><br>
+        Телефон: <a href="tel:+74956660266" class="footer__link--tel">+7 (495) 666-02-66</a>
+      </section>
+      <section class="footer__social">
+        Давайте дружить!<br>
+        <a href="#" class="footer__social--vk">VK</a>
+        <a href="#" class="footer__social--fb">FB</a>
+        <a href="#" class="footer__social--ig">INSTAGRAM</a>
+      </section>
+      <section class="footer__dev">
+        Разработано:<br>
+        <a href="#" class="footer__dev--link">HTMLACADEMY.RU</a>
+      </section> 
+    </div>   
+  </footer>
+</body>
+</html>
